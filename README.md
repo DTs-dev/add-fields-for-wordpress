@@ -1,9 +1,10 @@
 # WordPress theme function for field creating in metabox
 
-### Usage
+### Inclusion
 For this add-on to work, add the contents of the repository to your theme folder and include the “custom-fields.php” file in the “function.php” file.
 
-**To add a new metabox with new custom field, initialize the "add_field" function in anonymous function in file "custom-fields.php", as follows.**
+### Usage
+To add a new metabox with new custom field, initialize the "add_field" function in anonymous function in file "custom-fields.php", as follows.
 ```
 add_field( $cfield_name, $cfield_title, $post_type, $context, $input_type, $template );
 ```
